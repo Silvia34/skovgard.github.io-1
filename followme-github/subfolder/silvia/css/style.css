@@ -1,0 +1,557 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+    font: 14pt/18pt "Advent Pro", sans-serif;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+p {
+    font: 12pt "Din Pro";
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+#title {
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+
+}
+
+#title1 {
+    letter-spacing: 0.8em;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+#byline {
+    text-align: right;
+    font-size: 0.5em
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #66CCCC;
+}
+
+/* Social Icons
+-----------------------------------------------------------------------------*/
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+.fa {
+    padding: 3%;
+    width: 5%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: red;
+    color: white;
+}
+
+.fa-instagram {
+    background: purple;
+    color: white;
+}
+
+#suscribe {
+    width: 10%;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.titleheader {
+    text-align: center;
+    background-image: url("../images/main_page.jpg");
+    padding-bottom: 10%;
+    padding-top: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titleheader1 {
+    text-align: center;
+    background-image: url("../images/explore_page.jpg");
+    padding-bottom: 10%;
+    padding-top: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-about {
+    text-align: center;
+    background-image: url("../images/about_page.jpg");
+    padding-bottom: 10%;
+    padding-top: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-spain {
+    text-align: center;
+    background-image: url("../images/explore_spain_page.jpg");
+    padding-bottom: 10%;
+    padding-top: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-recipes {
+    text-align: center;
+    background-image: url("../images/recipes_page.jpg");
+    padding-bottom: 10%;
+    padding-top: 11%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-slovakia {
+    text-align: center;
+    background-image: url("../images/explore_slovakia_page.jpg");
+    padding-bottom: 10%;
+    padding-top: 11%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    height: auto;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+nav {
+    line-height: 3em;
+    padding: 2em;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #66CCCC;
+    font-size: 1em;
+    margin: 1em;
+}
+
+nav img {
+    max-width: 100%;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.container {
+    position: relative;
+    width: 80%;
+}
+
+.pic {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #66cccc;
+    border-radius: 50%;
+}
+.overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ECFBFB;
+    border-radius: 50%;
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+.container:hover .overlay1 {
+    opacity: 1;
+}
+.textinside {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+main {
+    background-color: #ECFBFB;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: space-between;
+
+}
+
+
+.circle1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#under {
+    max-width: 130px;
+}
+
+#maintitle a {
+    font-size: 0.7em;
+    text-decoration: underline;
+    text-decoration-color: #66CCCC;
+    font-weight: normal;
+    color: black;
+}
+
+#maintitle1 a {
+    font-size: 0.7em;
+    text-decoration: underline;
+    text-decoration-color: #ECFBFB;
+    font-weight: normal;
+    color: black;
+}
+
+#content-article {
+    background-color: white;
+}
+
+#title-article {
+    background-color: #ECFBFB;
+}
+
+#content-article-country {
+    background-color: #66cccc;
+}
+
+#ingridients {
+    list-style-type: circle;
+    margin-left: 12%;
+    font-family: "Din Pro";
+    font-size: 0.9em;
+}
+
+.important {
+    background-color: #66cccc;
+    color: white;
+    padding-bottom: 5%;
+}
+
+#mapspain {
+    background-color: #66cccc;
+}
+
+.partners {
+    display: flex;
+    background-color: #66cccc;
+    color: white;
+}
+
+.column {
+    flex: 5%;
+    padding: 1%;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 1% 3%;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.join {
+    border-color: #66cccc;
+    color: #66cccc
+}
+
+.join:hover {
+    background: #66cccc;
+    color: white;
+}
+
+/* images
+-----------------------------------------------------------------------------*/
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+/* Card
+-----------------------------------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+.container_card {
+    padding: 0 5%;  
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 90%;
+}
+.title {
+    color: #66cccc;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 3%;
+    color: white;
+    background-color: #66cccc;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    height: 100%;
+    background-color: white;
+    padding: 2%;
+}
+
+footer p {
+    float: inherit;
+    font-size: 0.6em
+}
+
+.logo {
+    width: 10%;
+}
+
+address a {
+    font-family: "Din Pro";
+    font-size: 0.7em;
+    color: #66CCCC;
+}
+
+
+/* 600px ---------------------------------------------- */
+
+@media only screen and (min-width: 600px) {
+    #title {
+        font-size: 4em;
+        background-size: 10%;
+
+    }
+
+    #title1 {
+        letter-spacing: 1em;
+        background-color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    main {
+        padding-left: 20%;
+        padding-right: 20%;
+
+
+    }
+
+    .logo {
+        max-width: 5%;
+    }
+
+    .circle {
+        display: flex;
+        flex-direction: row;
+        width: 120%;
+
+    }
+
+    .circle1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        width: 70%;
+
+    }
+
+
+    .fa {
+        font-size: 18pt;
+
+
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+
+    .row1 {
+        display: flex;
+    }
+
+    .column1 {
+        flex: 33.33%;
+        padding: 5px;
+    }
+
+    .pic {
+
+        width: 110%;
+    }
+
+    .overlay {
+
+        width: 110%;
+    }
+    .overlay1 {
+
+        width: 110%;
+    }
+    .card {
+    width: 60%;
+}
+
+}
+
+/* 1024px ---------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+    main {
+        padding-left: 15%;
+        padding-right: 15%;
+
+    }
+
+    .logo {
+        max-width: 5%;
+    }
+
+    .circle {
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .circle1 {
+        height: 1%;
+        width: 40%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 1%
+    }
+
+    .pic {
+
+        width: 120%;
+    }
+
+    .overlay {
+
+        width: 120%;
+    }
+    .overlay1 {
+
+        width: 120%;
+    }
+      .card {
+    width: 50%;
+}
+}
